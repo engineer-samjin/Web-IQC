@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("http://localhost/mvc-qc/public/font/Poppins-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("http://localhost/mvc-qc/public/font/Poppins-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar {
+  background-image: url("http://localhost/mvc-qc/public/images/bg-header.jpg");
+}
+
+.navbar a {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Mengatur warna saat dihover */
+.navbar a:hover {
+  color: darkgray; /* Warna saat dihover */
+  text-decoration: none;
+}
+
+/* Mengatur warna dropdown item */
+.navbar .dropdown-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Mengatur warna dropdown item saat dihover */
+.navbar .dropdown-menu a:hover {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.card-input {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-tabel {
+  position: relative;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-main {
+  min-height: 100vh;
+  padding: 0 20px 20px 20px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 2px solid #000;
+}
+
+.table-right {
+  float: right;
+  width: auto;
+  margin-left: 20px; /* Jarak dari elemen lain */
+}
+
+.text-right {
+  text-align: right;
+}
+
+.thead-dark th {
+  background-color: #cce5ff;
+  border-color: #000;
+}
+
+.card-progres,
+.card-progres-total {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-progres:hover {
+  background-color: #cce5ff;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.container-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.input-number,
+.input-vendor {
+  width: 467px;
+  height: 200px;
+}
+
+.footer {
+  background-color: #cce5ff;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}

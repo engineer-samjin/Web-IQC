@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("http://localhost/mvc-qc/public/font/Poppins-Regular.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("http://localhost/mvc-qc/public/font/Poppins-Bold.ttf")
+      format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #79C3EB;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.container-main {
+padding: 20px;
+}
+
+.login-container {
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#username {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.back {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 1;
+}
+
+.back .btn {
+    border-radius: 16px;
+}
+
+.span-login {
+    font-weight: bold;
+    color: #007bff;
+}
+
+@media only screen and (max-width: 1050px) {
+    .login-container {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 32px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        z-index: 1;
+    }
+}
